@@ -54,7 +54,7 @@ public class cf1901A {
             for (int i=0; i<arr.length; i++) {
                 arr[i]=sc.nextInt();
             }
-
+            sc.close();
             System.out.println(solve(arr,x));
         }
     }    
