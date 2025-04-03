@@ -71,7 +71,7 @@ public class cf1890A {
                     goodArray = false;
             }
 
-            if (cntA != cntB && cntA + 1 != cntB && cntA != cntB + 1 && cntA != 0 && cntB != 0) 
+            if (Math.abs(cntA-cntB)!=0 && Math.abs(cntA-cntB)!=1 && cntA!=0 && cntB!=0) 
                 goodArray = false;
 
             System.out.println(goodArray ? "Yes" : "No");
